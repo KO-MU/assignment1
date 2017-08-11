@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.logo{
+  color: blue;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+}
+.cf::before{
+  content: '';
+}
+.cf::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.nav{
+  background-color: blue;
+}
+.nav ul{
+  width: 960px;
+  margin: 0 100px;
+}
+.nav li{
+  float: left;
+  text-align: center;
+}
+.nav li a{
+  display: block;
+  color: white;
+  width:160px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.nav li a:hover{
+  color: blue;
+  background-color: white;
+}
