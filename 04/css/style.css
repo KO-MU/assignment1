@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.titles {
+  margin-top: 20px;
+}
+
+.home {
+  float: left;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo a img {
+  width: 100px;
+  height: 50px;
+}
+
+.btn {
+  background-color: orange;
+  font-size: 12px;
+  display: block;
+  height: 30px;
+  width: 120px;
+  line-height: 30px;
+  text-align: center;
+  float: right;
+  margin: -50px 0;
+  transition: 0.5s;
+}
+
+.btn a {
+  color: white;
+}
+
+.btn:hover{
+  color: orange;
+  background-color: white;
+  opacity: 0.6;
+}
+
+.navLine {
+  background-color: orange;
+  height: 1px;
+}
+
+
+.cf::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.topMenu ul{
+  width: 960px;
+  margin: 0 100px;
+}
+.topMenu li{
+  float: left;
+  text-align: center;
+}
+.topMenu li a{
+  display: block;
+  color: black;
+  width: 130px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.topMenu li:first-child {
+  margin-left: -100px;
+}
+
+
+.message{
+  background-image: url('../img/main.jpg');
+  background-repeat: no-repeat;
+  height: 350px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.message p {
+  color: white;
+  line-height: 1.4;
+}
+
+.p1 {
+  font-size:30px;
+  font-weight: bold;
+}
+
+.p2 {
+  margin-bottom: 10px;
+}
+
+.nav{
+  background-color: orange;
+}
+.nav ul{
+  width: 960px;
+}
+.nav p{
+  float: left;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+.QA {
+  margin: 30px auto;
+  line-height: 3;
+  font-size: 12px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.profile {
+  font-size: 25px;
+  color: orange;
+  margin-top: 30px;
+}
+
+.info {
+  margin-top: 50px;
+}
+
+em {
+  color: red;
+}
+
+.info {
+  border-bottom: 1px solid gray;
+  line-height: 3;
+}
+
+th {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-bottom: 1px solid gray;
+}
+
+.sendBtn {
+  color: white;
+  background: orange;
+  display: block;
+  height: 70px;
+  width: 200px;
+  line-height: 70px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+
+footer{
+  color: white;
+  background: black;
+  text-align: center;
+  line-height: 20px;
+}
